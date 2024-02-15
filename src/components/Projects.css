@@ -1,0 +1,24 @@
+/* Projects.css */
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project-card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  
