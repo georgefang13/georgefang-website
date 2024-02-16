@@ -2,23 +2,30 @@
 import React from 'react';
 import './Projects.css';
 
+import img1 from '../images/swaggerduck.png';
+import img2 from '../images/swaggerduck.png';
+import img3 from '../images/swaggerduck.png';
+
+
+
+
 const Projects = () => {
   const projects = [
     {
       name: 'Project 1',
-      image: 'path_to_image_1', // replace with your image path
+      image: img1, // replace with your image path
       link: 'https://link_to_project_1', // replace with your project link
       description: "BLAH BLAH BLAH"
     },
     {
       name: 'Project 2',
-      image: 'path_to_image_2', // replace with your image path
+      image: img2, // replace with your image path
       link: 'https://link_to_project_2', // replace with your project link
       description: "BLAH BLAH BLAH"
     },
     {
       name: 'Project 3',
-      image: 'path_to_image_3', // replace with your image path
+      image: img3, // replace with your image path
       link: 'https://link_to_project_3', // replace with your project link
       description: "BLAH BLAH BLAH"
     }
